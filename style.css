@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: sandybrown;
+}
+
+header{
+    padding: 50px;
+    background-color: olivedrab;
+    text-align: center;
+    font-size: large;
+    }
+
+    aside{
+        flex: 30px;
+        background-color: sandybrown;
+        padding: 20px;}
+
+        footer{
+            padding: 20px;
+            text-align: center;
+            background-color: chocolate;
+        }
+
+    .hello{
+        width: 100px;
+        display: inline;
+    }
+    .contenedor-botones{
+        width: 100%;
+        display: grid;
+        
+    }
+    
+    .boton{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .3s ease all;
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        background-color:sandybrown 
+        }
+
+        .boton:hover {
+            background-color: darkseagreen;
+
+        }
+        .foto1{
+            width: 300px;
+            height: 200px;
+        }
+
+        .foto3{
+            width: 40px;
+            
+          }
+        
+          .foto4{
+            width: 40px;
+            
+          }
+        
+          .foto5{
+            width: 40px;
+          }
+
+            
+
+
+@media all and ( max-width: 600px){
+    aside {
+        grid-column: 1 / span 3;
+    }
+
+    .grid-container{
+        grid-template-rows: repeat( 4, 100px);
+    }
+}
+
+
+
+.logo1{
+    width: 100px;
+    float: right;
+}
